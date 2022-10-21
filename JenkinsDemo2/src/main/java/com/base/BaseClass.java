@@ -26,7 +26,8 @@ public class BaseClass {
 		}
 		driver.manage().window().maximize();
 		driver.get(System.getProperty("url"));
-			driver.get("https://www.google.com/");
+		    driver.get("http://192.168.195.13:45000/");
+			//driver.get("https://www.google.com/");
 			driver.manage().window().maximize();
 	}	
 	@AfterMethod
