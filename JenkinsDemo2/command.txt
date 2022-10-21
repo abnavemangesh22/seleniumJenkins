@@ -1,0 +1,1 @@
+ean install -DxmlFiles=testng.xml -Dbrowser=Firefox -Durl=https://www.google.com/ -X
